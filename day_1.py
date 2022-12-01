@@ -1,4 +1,4 @@
-fh = open('input.txt)
+fh = open('input.txt')
 elves_calories = [] # list containing all the calories every elf is carrying
 count = 0
 for line in fh:
