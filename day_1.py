@@ -9,10 +9,10 @@ for line in fh:
     else:
         # else, it means we counted all the calories for that elf
         # we append the total to the list and we reset the count
-        new.append(count)
+        elves_calories.append(count)
         count = 0
 
-max_calories = max(new)
+max_calories = max(elves_calories)
           
 # now on to find the sum of the top three elves' calories
 sorted_list = sorted(elves_calories, reverse=True)
