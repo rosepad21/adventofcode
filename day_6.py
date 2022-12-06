@@ -10,10 +10,10 @@ def find_marker(input_file, n):
             marker.append(i)
             count += 1
             if len(marker) == n:
-                if len(marker) == len(set(marker)):
+                if len(marker) == len(set(marker)): # checking for duplicates in the list using a set
                     break
                 else:
-                    marker.pop(0)
+                    marker.pop(0) # if there are duplicates, we remove the first element in the list
                     continue
             else:
                 continue
