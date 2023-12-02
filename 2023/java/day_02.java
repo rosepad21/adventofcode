@@ -8,7 +8,7 @@ public class day_02 {
     public static void main(String[] args) {
         try {
 
-            File myObj = new File(System.getProperty("user.dir") + File.separator + "cio.txt");
+            File myObj = new File(System.getProperty("user.dir") + File.separator + "input.txt");
             Scanner myReader = new Scanner(myObj);
 
             Map<String, Integer> colours_num = new HashMap<String, Integer>();
