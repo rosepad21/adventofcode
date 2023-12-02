@@ -40,8 +40,8 @@ public class day_02 {
                 puzzle_2 += pw_temp;
                 
             }
-            System.out.println(puzzle_1);
-            System.out.println(puzzle_2);
+            System.out.println("Result of the first puzzle: " + puzzle_1);
+            System.out.println("Result of the second puzzle: " + puzzle_2);
 
         } catch (FileNotFoundException e) {
             System.out.println("Error");
