@@ -70,8 +70,8 @@ def main():
     
     for x in stars:
         gears += star(x[0], x[1])
-    print('Result of the first puzzle: ' + str(the_sum))
-    print('Result of the second puzzle: ' + str(gears))
+    print(f'Result of the first puzzle: {the_sum}')
+    print(f'Result of the second puzzle: {gears}')
 
 # Helper function that returns a boolean to check whether a number has adjacent symbols
 def dfs(start_idx, end_idx, idx, next_line=''):
