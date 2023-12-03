@@ -14,8 +14,8 @@ def main():
         num_line += 1
         puzzle_1 += solvePuzzle(line, max_values, num_line)[0]
         puzzle_2 += solvePuzzle(line, max_values)[1]
-    print("Result of the first puzzle: " + str(puzzle_1))
-    print("Result of the second puzzle: " + str(puzzle_2))
+    print(f'Result of the first puzzle: {puzzle_1}')
+    print(f'Result of the second puzzle: {puzzle_2}')
 
 def solvePuzzle(data, max_values, num_line=0):
     colours = {}
