@@ -10,8 +10,8 @@ def main():
     for line in lines:
         puzzle_1 += first_puzzle(line)
         puzzle_2 += second_puzzle(line)
-    print("Result of the first puzzle: " + str(puzzle_1))
-    print("Result of the second puzzle: " + str(puzzle_2))
+    print(f'Result of the first puzzle: {puzzle_1}')
+    print(f'Result of the second puzzle: {puzzle_2}')
 
 def first_puzzle(data):
     s1 = ''
