@@ -2,8 +2,8 @@
 https://adventofcode.com/2023
 
 Puzzles yet to solve:
-<li>
-  <ul>Day 5 (missing the solution to the second puzzle);</ul>
-  <ul>Day 7</ul>
-  <ul>Day 8</ul>
-</li>
+<ul>
+  <li>Day 5 (missing the solution to the second puzzle);</li>
+  <li>Day 7;</li>
+  <li>Day 8;</li>
+</ul>
